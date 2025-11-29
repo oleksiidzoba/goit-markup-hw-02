@@ -1,0 +1,22 @@
+body {
+    font-family: 'Roboto',sans-serif;
+}
+.link {
+    text-decoration: none;
+    color: #2e2f42;
+}
+.link:hover {
+    color: #404BBF;
+}
+nav .contacts {
+    color: #434455;
+}
+.page-title-section {
+    background-color: #2E2F42;
+}
+.page-title {
+    color: #ffffff;
+}
+ol, ul {
+    list-style-type: none;
+}
