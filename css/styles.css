@@ -8,15 +8,43 @@ body {
 .link:hover {
     color: #404BBF;
 }
+.logo-1 {
+    color: #4D5AE5;
+    font-family:'Raleway',sans-serif ;
+    font-weight: 700
+}
+.logo-2 {
+    color: #2E2F42;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+}
 nav .contacts {
     color: #434455;
 }
+
+
 .page-title-section {
     background-color: #2E2F42;
+    text-align: center;
 }
 .page-title {
     color: #ffffff;
+    margin: 472px;
+    margin-bottom: 48px;
 }
 ol, ul {
     list-style-type: none;
+}
+.button {
+    color: #ffffff;
+    background-color: #4D5AE5;
+    padding: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 188px;
+}
+.info {
+    display: flex;
 }
