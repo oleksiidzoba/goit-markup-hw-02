@@ -8,15 +8,30 @@ body {
 .link:hover {
     color: #404BBF;
 }
+header {
+    display: flex;
+}
+.logo {
+    display: flex;
+}
+nav ul {
+    display: flex;
+}
+address ul {
+    display: flex;
+}
+.logo {
+    font-family:'Raleway',sans-serif ;
+    font-weight: 700 ;
+    display: flex;
+    width: 115px;
+    height: 24px;
+}
 .logo-1 {
     color: #4D5AE5;
-    font-family:'Raleway',sans-serif ;
-    font-weight: 700
 }
 .logo-2 {
     color: #2E2F42;
-    font-family: 'Raleway',sans-serif;
-    font-weight: 700;
 }
 nav .contacts {
     color: #434455;
@@ -26,11 +41,13 @@ nav .contacts {
 .page-title-section {
     background-color: #2E2F42;
     text-align: center;
+    box-sizing: border-box;
 }
 .page-title {
     color: #ffffff;
     margin: 472px;
     margin-bottom: 48px;
+    text-align: center;
 }
 ol, ul {
     list-style-type: none;
@@ -47,4 +64,27 @@ ol, ul {
 }
 .info {
     display: flex;
+}
+.page-team-section {
+    background-color: #F4F4FD;
+}
+.text {
+    color: #434455;
+}
+.bold-text {
+    color: #2E2F42;
+}
+footer {
+    background-color: #2E2F42;
+}
+.footer-logo {
+    font-family:'Raleway',sans-serif ;
+    font-weight: 700 ;
+    display: flex;
+}
+.footer-logo-1 {
+    color: #4D5AE5;
+}
+.footer-logo-2 {
+    color: #F4F4FD;
 }
