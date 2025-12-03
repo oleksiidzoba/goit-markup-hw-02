@@ -8,14 +8,29 @@ body {
 .link:hover {
     color: #404BBF;
 }
-header {
+.header {
+    justify-content: space-between;
     display: flex;
+    align-items: center;
+    margin-bottom: 24px;
 }
 .logo {
     display: flex;
 }
 nav ul {
     display: flex;
+}
+.nav {
+    margin-top: 24px;
+}
+.nav-1 {
+    margin-left: 76px;
+}
+.nav-2 {
+    margin-left: 40px;
+}
+.nav-3 {
+    margin-left: 40px;
 }
 address ul {
     display: flex;
@@ -26,6 +41,8 @@ address ul {
     display: flex;
     width: 115px;
     height: 24px;
+    margin-left: 156px;
+    margin-top: 24px;
 }
 .logo-1 {
     color: #4D5AE5;
@@ -33,7 +50,7 @@ address ul {
 .logo-2 {
     color: #2E2F42;
 }
-nav .contacts {
+.contacts {
     color: #434455;
 }
 
@@ -42,10 +59,13 @@ nav .contacts {
     background-color: #2E2F42;
     text-align: center;
     box-sizing: border-box;
+    margin-top: ;
 }
 .page-title {
     color: #ffffff;
+    
     margin: 472px;
+    margin-top: 0px;
     margin-bottom: 48px;
     text-align: center;
 }
@@ -64,10 +84,70 @@ ol, ul {
 }
 .info {
     display: flex;
+    margin-bottom: 120px;
 }
 .page-team-section {
     background-color: #F4F4FD;
 }
+.page-team-title {
+    text-align: center;
+    
+}
+.page-team-list {
+    display: flex; 
+}
+.page-team-content {
+    background-color: #ffffff;
+    box-sizing: border-box;
+    width: 264px;
+    height: 380px;
+    text-align: center;
+}
+.page-team-content-1 {
+    margin-left: 156px;
+}
+.page-team-content-2 {
+    margin-left: 24px;
+}
+.page-team-content-3 {
+    margin-left: 24px;
+}
+.page-team-content-4 {
+    margin-left: 24px;
+}
+
+.page-portfolio-title {
+    text-align: center;
+}
+.page-portfolio-list-1,
+.page-portfolio-list-2 {
+    display: flex;
+}
+.page-portfolio-content {
+    background-color: #ffffff;
+    box-sizing: border-box;
+    width: 360px;
+    height: 420px;
+}
+.page-portfolio-content-1 {
+    margin-left: 156px;
+}
+.page-portfolio-content-2 {
+    margin-left: 24px;
+}
+.page-portfolio-content-3 {
+    margin-left: 24px;
+}
+.page-portfolio-content-4 {
+    margin-left: 156px;
+}
+.page-portfolio-content-5 {
+    margin-left: 24px;
+}
+.page-portfolio-content-2 {
+    margin-left: 24px;
+}
+
 .text {
     color: #434455;
 }
@@ -86,5 +166,8 @@ footer {
     color: #4D5AE5;
 }
 .footer-logo-2 {
+    color: #F4F4FD;
+}
+.footer-text {
     color: #F4F4FD;
 }
