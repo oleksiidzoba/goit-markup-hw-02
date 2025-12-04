@@ -1,11 +1,14 @@
 body {
     font-family: 'Roboto',sans-serif;
+    color: #434455;
+    line-height: 1.5;
 }
 .link {
     text-decoration: none;
     color: #2e2f42;
 }
-.link:hover {
+.link:hover,
+.link:focus {
     color: #404BBF;
 }
 .header {
@@ -22,6 +25,8 @@ nav ul {
 }
 .nav {
     margin-top: 24px;
+    font-weight: 500;
+    color: #2e2f42;
 }
 .nav-1 {
     margin-left: 76px;
@@ -31,6 +36,9 @@ nav ul {
 }
 .nav-3 {
     margin-left: 40px;
+}
+.contacts {
+    font-weight: 400;
 }
 address ul {
     display: flex;
@@ -59,11 +67,10 @@ address ul {
     background-color: #2E2F42;
     text-align: center;
     box-sizing: border-box;
-    margin-top: ;
 }
 .page-title {
     color: #ffffff;
-    
+    font-weight: 700;
     margin: 472px;
     margin-top: 0px;
     margin-bottom: 48px;
@@ -81,6 +88,9 @@ ol, ul {
     border-radius: 4px;
     border: none;
     margin-bottom: 188px;
+    font-size: 16;
+    font-weight: 500;
+    cursor: pointer;
 }
 .info {
     display: flex;
@@ -148,11 +158,17 @@ ol, ul {
     margin-left: 24px;
 }
 
+.title {
+    font-weight: 700;
+    font-size: 36px;
+}
 .text {
     color: #434455;
+    font-size: 16;
 }
 .bold-text {
     color: #2E2F42;
+    font-size: 20;
 }
 footer {
     background-color: #2E2F42;
