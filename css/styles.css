@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto',sans-serif;
     color: #434455;
+    background-color: #ffffff;
     line-height: 1.5;
 }
 .link {
@@ -11,22 +12,40 @@ body {
 .link:focus {
     color: #404BBF;
 }
+.title {
+    font-weight: 700;
+    font-size: 36px;
+}
+.text {
+    color: #434455;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+}
+
+
 .header {
     justify-content: space-between;
-    display: flex;
     align-items: center;
     margin-bottom: 24px;
 }
 .logo {
-    display: flex;
+    font-family:'Raleway',sans-serif ;
+    font-weight: 700 ;
+    font-size: 18px;
+    margin-left: 156px;
+    margin-top: 24px;
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4D5AE5;
 }
-nav ul {
-    display: flex;
+.logo-1 {
+    color: #2E2F42;
 }
 .nav {
     margin-top: 24px;
-    font-weight: 500;
     color: #2e2f42;
+    letter-spacing: 0.02em;
 }
 .nav-1 {
     margin-left: 76px;
@@ -39,42 +58,31 @@ nav ul {
 }
 .contacts {
     font-weight: 400;
-}
-address ul {
-    display: flex;
-}
-.logo {
-    font-family:'Raleway',sans-serif ;
-    font-weight: 700 ;
-    display: flex;
-    width: 115px;
-    height: 24px;
-    margin-left: 156px;
-    margin-top: 24px;
-}
-.logo-1 {
-    color: #4D5AE5;
-}
-.logo-2 {
-    color: #2E2F42;
-}
-.contacts {
+    font-style: normal;
     color: #434455;
+    letter-spacing: 0.02em;
 }
+
+
+
+
+   
 
 
 .page-title-section {
     background-color: #2E2F42;
     text-align: center;
-    box-sizing: border-box;
 }
 .page-title {
     color: #ffffff;
     font-weight: 700;
+    font-size: 56px;
     margin: 472px;
     margin-top: 0px;
     margin-bottom: 48px;
     text-align: center;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
 }
 ol, ul {
     list-style-type: none;
@@ -82,7 +90,8 @@ ol, ul {
 .button {
     color: #ffffff;
     background-color: #4D5AE5;
-    padding: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     padding-left: 32px;
     padding-right: 32px;
     border-radius: 4px;
@@ -91,53 +100,60 @@ ol, ul {
     font-size: 16;
     font-weight: 500;
     cursor: pointer;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+.button:hover,
+.button:focus {
+    background-color: #404BBF;
+
 }
 .info {
-    display: flex;
     margin-bottom: 120px;
 }
+.page-info-title {
+    color: #2E2F42;
+    font-size: 20;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
 .page-team-section {
     background-color: #F4F4FD;
 }
 .page-team-title {
     text-align: center;
-    
-}
-.page-team-list {
-    display: flex; 
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 .page-team-content {
     background-color: #ffffff;
-    box-sizing: border-box;
-    width: 264px;
-    height: 380px;
     text-align: center;
 }
-.page-team-content-1 {
-    margin-left: 156px;
+.page-team-sub-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
 }
-.page-team-content-2 {
-    margin-left: 24px;
-}
-.page-team-content-3 {
-    margin-left: 24px;
-}
-.page-team-content-4 {
-    margin-left: 24px;
+.page-team-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
 }
 
 .page-portfolio-title {
     text-align: center;
 }
-.page-portfolio-list-1,
-.page-portfolio-list-2 {
-    display: flex;
-}
 .page-portfolio-content {
     background-color: #ffffff;
-    box-sizing: border-box;
-    width: 360px;
-    height: 420px;
 }
 .page-portfolio-content-1 {
     margin-left: 156px;
@@ -158,30 +174,22 @@ ol, ul {
     margin-left: 24px;
 }
 
-.title {
-    font-weight: 700;
-    font-size: 36px;
-}
-.text {
-    color: #434455;
-    font-size: 16;
-}
-.bold-text {
-    color: #2E2F42;
-    font-size: 20;
-}
+
 footer {
     background-color: #2E2F42;
 }
 .footer-logo {
     font-family:'Raleway',sans-serif ;
     font-weight: 700 ;
-    display: flex;
-}
-.footer-logo-1 {
+    font-size: 18px;
+    margin-left: 156px;
+    margin-top: 24px;
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     color: #4D5AE5;
 }
-.footer-logo-2 {
+.footer-logo-1 {
     color: #F4F4FD;
 }
 .footer-text {
