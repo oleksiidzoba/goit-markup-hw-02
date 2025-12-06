@@ -38,32 +38,21 @@ body {
     color: #2E2F42;
 }
 .nav {
-    margin-top: 24px;
     color: #2e2f42;
     letter-spacing: 0.02em;
     font-weight: 500;
-}
-.nav-1 {
-    margin-left: 76px;
-}
-.nav-2 {
-    margin-left: 40px;
-}
-.nav-3 {
-    margin-left: 40px;
 }
 .contacts {
     font-weight: 400;
     font-style: normal;
     color: #434455;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
-
-
-
-
-   
-
+.contacts:hover,
+.contacts:focus {
+    color: #404BBF;
+}
 
 .page-title-section {
     background-color: #2E2F42;
@@ -97,16 +86,12 @@ ol, ul {
     background-color: #404BBF;
 
 }
-.info {
-    margin-bottom: 120px;
-}
-.page-info-title {
+.page-sub-title {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    font-size: 36px;
 }
 
 .page-team-section {
@@ -132,14 +117,6 @@ ol, ul {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-}
-.page-team-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #434455;
 }
 
 .page-portfolio-title {
