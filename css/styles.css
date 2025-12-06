@@ -57,6 +57,7 @@ body {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 ol, ul {
     list-style-type: none;
@@ -93,6 +94,7 @@ ol, ul {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    text-align: center;
 }
 .page-team-content {
     background-color: #ffffff;
@@ -112,6 +114,7 @@ ol, ul {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
+    text-align: center;
 }
 .page-portfolio-content {
     background-color: #ffffff;
